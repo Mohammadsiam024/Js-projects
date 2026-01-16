@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design -->
+    <title>To Do List </title> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+    <link rel="stylesheet" href="toDoList2styles.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bree+Serif&family=Jacquard+24&family=Jersey+10&family=Pixelify+Sans:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header><h2>My WorkSpace</h2></header>
+    <div class="work-space">
+    <div class="todo card">
+    <h1>To Do List</h1> 
+    <div class="todo-input">
+        <input type="text" id="inputField" placeholder="Enter a new To Do List">
+        <button id="add-btn">
+            Add 
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="#617358">
+                <path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/>
+            </svg>
+        </button>
+    </div>
+    <div>
+        <ul id="todo-list">
+            <li class="todo-item"><input type="checkbox" id="todo-item-1">
+                <label for="todo-item-1">milk</label>                
+                <svg class="icon delete-btn" xmlns="http://www.w3.org/2000/svg" 
+                viewBox="0 -960 960 960" fill="#88987f">
+               <path d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z"/>
+           </svg>
+            </li>
+            <li id="gg" class="todo-item"><input type="checkbox" id="todo-item-2">
+                <label for="todo-item-2">Javascript</label>
+                
+                <svg class="icon delete-btn" xmlns="http://www.w3.org/2000/svg" 
+                     viewBox="0 -960 960 960" fill="#88987f">
+                    <path d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z"/>
+                </svg>
+            </li>
+        </ul>
+    </div>
+    </div>
+
+    <script src="toDoList2.js"></script>
+</body>
+
+</html>
+
+

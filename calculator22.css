@@ -1,0 +1,122 @@
+body{
+    margin: 120px;
+    margin-left: 500px;
+    background: radial-gradient(rgb(0, 0, 0),black);
+}
+
+.calculator{
+    background-color: black;
+    width: 290px;
+    border: 3px dashed green;
+    border-right: 3px solid green ;
+    border-left: 3px solid green ;
+    border-radius: 9px;
+    border-bottom: 3px solid green ;
+    border-top: 3px solid green ;
+
+}
+
+#display{
+
+    height: 70px;
+    border: 3px solid green;
+    border-right: dotted;
+    border-radius: 7px;
+    color: green;
+    margin: 5%;
+}
+
+#input-digit{
+    margin-left: 20px;
+    color: rgb(143, 212, 39);
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+}
+
+.btns{
+
+    padding: 10px;
+    padding-left: 22px;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+}
+
+.special-btns{
+
+    padding: 10px;
+    padding-left: 27px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight: 300;
+
+
+}
+
+.btn{
+    display: inline-block;
+    height: 20px;;
+    font-size: 24px;
+    border: 2px solid;
+    border-radius: 9px;
+    padding: 20px;
+    margin-bottom: 2%;
+    margin-left: 5px;
+    color: green;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.btn:hover{
+    color: greenyellow;
+
+}
+.btn:active {
+    transform: scale(0.9);
+    background-color: green;
+}
+
+#sign{
+    border: none;
+
+}
+
+#last-btn{
+    margin-left: px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#sign{
+    font-family: "Jacquard 24", system-ui;
+    font-style: italic;
+    font-size: 30px;    
+    color: greenyellow;
+}
+
+
+.sp-btn{
+    display: inline-block;
+    height: 20px;;
+    font-size: 24px;
+    border: 2px solid;
+    border-radius: 9px;
+    padding: 20px;
+    margin-bottom: 3px;
+    color: rgb(210, 127, 255);
+    background-color: black;
+    margin-bottom: 3%;
+}
+
+.sp-btn:hover{
+    color: rgb(255, 49, 176);
+}
+
+.sp-btn:active{
+    transform: scale(0.9);
+    background-color:rgb(210, 127, 255);
+}
+
+#uneven-sp-btn{
+    padding-right: 25px;
+    padding-left: 22px;
+}
+

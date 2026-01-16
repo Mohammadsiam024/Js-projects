@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: radial-gradient(circle at top, #1b2745, #0b1020);
+    color: #fff;
+  }
+  
+  /* NAVBAR */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 60px;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+  }
+  
+  .logo {
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #5cc8ff;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  
+  .nav-links li.active,
+  .nav-links li:hover {
+    opacity: 1;
+    color: #5cc8ff;
+  }
+  
+  /* HERO */
+  .hero {
+    padding: 60px;
+  }
+  
+  .hero h1 {
+    font-size: 42px;
+    margin: 0;
+  }
+  
+  .hero p {
+    color: #6aff9f;
+    margin-top: 8px;
+  }
+  
+  /* PROJECTS GRID */
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+    padding: 40px 60px 80px;
+  }
+  
+  /* CARD */
+  .card {
+
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow:
+      0 15px 30px rgba(0, 0, 0, 0.5),
+      inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.7);
+  }
+  
+  /* ICON */
+  .icon {
+    font-size: 32px;
+    margin-bottom: 12px;
+  }
+  
+  .icon.blue { color: #5cc8ff; }
+  .icon.green { color: #6aff9f; }
+  .icon.cyan { color: #4fe0ff; }
+  
+  /* TEXT */
+  .card h3 {
+    margin: 10px 0 6px;
+  }
+  
+  .card p {
+    opacity: 0.75;
+    font-size: 14px;
+  }
+  
+  /* BUTTON */
+  .card button {
+    margin-top: 16px;
+    background: transparent;
+    border: 1px solid white;
+    padding: 8px 14px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .card button:hover {
+    border:1px solid #4fc3ff;
+    color: #4fc3ff;
+  }
+  
+  /* RESPONSIVE */
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 16px 24px;
+    }
+  
+    .hero {
+      padding: 40px 24px;
+    }
+  
+    .projects {
+      padding: 20px 24px 60px;
+    }
+  
+    .hero h1 {
+      font-size: 32px;
+    }
+  }
+  
+  #card1{
+
+    background-image: url(calc.png);
+    background-size: 100% 120%;
+    background-position-y: -20px;
+    background-position-x: 90px;
+
+  }
+
+  #card2{
+
+    background-image: url(todo.png);
+    background-size: 200% 200%;
+    background-position-y: -20px;
+
+  }
+
+  #sign{
+    font-family: "Jacquard 24", system-ui;
+    font-style: italic;
+    font-size: 42px;    
+    color: greenyellow;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 30px;
+    position: fixed;
+}

@@ -1,0 +1,118 @@
+body{
+
+  background-color: #8fa98f;
+  margin: 0;
+
+}
+.work-space{
+  display: flex;
+  justify-content: space-around;
+}
+.card{
+
+  background-color: #cde2d2;
+  height: 60vh;
+  width: 25%;
+  box-shadow: 6px 10px 10px rgb(106, 130, 107);
+}
+#todo-list{
+ display: flex;
+ flex-direction: column;
+ height: 290px;
+
+}
+.todo-item {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+
+}
+
+.icon {
+  width: 6.3%;
+  
+}
+
+.todo-input{
+  
+  display: flex;
+  justify-content: space-around;
+}
+
+.todo-input button{
+  width:18%;
+  display: flex;
+  align-items: center;
+  background-color: #a6c295;
+  border: none;
+  color:  #617358;
+  font-family: "Roboto Condensed", sans-serif;
+  box-shadow: 2px 2px 2px #617358;
+}
+.todo-input button:active{
+  transform: scale(0.9);
+ 
+}
+
+.todo-input .icon{
+  width: 40%;
+
+
+}
+.icon:hover{
+
+  cursor: pointer;
+}
+
+.todo-item label{
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #89a778;
+}
+
+/* Default checkbox color */
+.todo-item input[type="checkbox"] {
+  accent-color: #89a778;
+
+}
+
+/* When checked */
+.todo-item input[type="checkbox"]:checked {
+  accent-color: #88987f;
+}
+
+
+h1{
+  color: #99BC85;
+  margin-left: 15px;
+  border-bottom: solid 2px #88987f;
+  width: 80%;
+}
+
+input{
+  background-color:#d5eac9;
+  border:none;
+  color:  #6f8066;
+}
+input:focus{
+  background-color: #b9cbaf;
+  border: none;
+  outline: none;
+}
+
+::placeholder {
+  color: #98b188;
+  font-family: "Roboto Condensed", sans-serif;;
+}
+
+
+h2{
+  color: #4f5c47;
+  border-bottom: solid 2px #697761;
+  width: 80%;
+  font-size: 42px;
+}
+header{
+  margin-left: 50px;
+}
